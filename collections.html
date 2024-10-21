@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adele Collections - Our Collections</title>
+    <link rel="stylesheet" href="collections.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Adele Collections</h1>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Sign in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Our Collections</h2>
+
+        <div class="filter-sort">
+            <div class="filters">
+                <button class="filter-button">Bundles</button>
+                <button class="filter-button">Country of Origin</button>
+                <button class="filter-button">Size</button>
+            </div>
+            <select class="sort-select">
+                <option value="recommended">Recommended</option>
+                <option value="new">What's New</option>
+                <option value="popularity">Popularity</option>
+                <option value="price-high-low">Price: High to Low</option>
+                <option value="price-low-high">Price: Low to High</option>
+            </select>
+        </div>
+
+        <div class="collections-grid">
+            <div class="product-card">
+                <img src="gb.jpg" alt="Gucci Handbag">
+                <div class="product-info">
+                    <h3>Gucci Handbag</h3>
+                    <p>Pastel Sage Gucci Bag</p>
+                    <p class="price">₹8,999</p>
+                    <!-- Form to add the product to the database -->
+                    <form action="object.html" method="POST">
+                        <input type="hidden" name="product_name" value="Gucci Handbag">
+                        <input type="hidden" name="product_price" value="8999">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="starry hb.jpg" alt="Starry Night Handbag">
+                <div class="product-info">
+                    <h3>Starry Night Handbag</h3>
+                    <p>Inspired by Van Gogh's masterpiece</p>
+                    <p class="price">₹15,999</p>
+                    <form action="object1.html" method="POST">
+                        <input type="hidden" name="product_name" value="Starry Night Handbag">
+                        <input type="hidden" name="product_price" value="15999">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="sunflower.jpg" alt="Sunflower Scarf">
+                <div class="product-info">
+                    <h3>Sunflower Scarf</h3>
+                    <p>Luxurious silk scarf with Van Gogh's sunflowers</p>
+                    <p class="price">₹8,999</p>
+                    <!-- Form to add the product to the database -->
+                    <form action="object2.html" method="POST">
+                        <input type="hidden" name="product_name" value="Sunflower Scarf">
+                        <input type="hidden" name="product_price" value="8999">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="aw.jpg" alt="Almond Blossom Watch">
+                <div class="product-info">
+                    <h3>Almond Blossom Watch</h3>
+                    <p>Elegant timepiece featuring almond blossoms</p>
+                    <p class="price">₹12,499</p>
+                    <!-- Form to add the product to the database -->
+                    <form action="checkout.php" method="POST">
+                        <input type="hidden" name="product_name" value="Almond Blossom Watch">
+                        <input type="hidden" name="product_price" value="12499">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="hermes.jpg" alt="hermes Handbag">
+                <div class="product-info">
+                    <h3>hermes blue leather Handbag</h3>
+                    <p>Inspired by shades of blue</p>
+                    <p class="price">₹15,999</p>
+                    <form action="object4.html" method="POST">
+                        <input type="hidden" name="product_name" value="Starry Night Handbag">
+                        <input type="hidden" name="product_price" value="15999">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="dior.avif" alt="Dior Handbag">
+                <div class="product-info">
+                    <h3>China blue potter Handbag</h3>
+                    <p>Inspired by the streets of Handbag</p>
+                    <p class="price">₹15,999</p>
+                    <form action="object5.html" method="POST">
+                        <input type="hidden" name="product_name" value="Starry Night Handbag">
+                        <input type="hidden" name="product_price" value="15999">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="om.jpg" alt="Blue watch omega">
+                <div class="product-info">
+                    <h3>Omega watch-Dial Blue</h3>
+                    <p>Curated with sliver and crafted my handsmith</p>
+                    <p class="price">₹15,999</p>
+                    <form action="object6.html" method="POST">
+                        <input type="hidden" name="product_name" value="Blue watch omega">
+                        <input type="hidden" name="product_price" value="15999">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="louis.jpg" alt="Blue watch omega">
+                <div class="product-info">
+                    <h3>Omega watch-Dial Blue</h3>
+                    <p>Curated with sliver and crafted my handsmith</p>
+                    <p class="price">₹15,999</p>
+                    <form action="object7.html" method="POST">
+                        <input type="hidden" name="product_name" value="Blue watch omega">
+                        <input type="hidden" name="product_price" value="15999">
+                        <button type="submit" class="product-button">Checkout</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Add the remaining products here following the same structure -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Adele Collections. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
